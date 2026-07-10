@@ -9,12 +9,12 @@ export const faqItems = [
   {
     question: "Posso usar o site na pré-campanha?",
     answer:
-      "Sim, desde que a comunicação respeite as regras aplicáveis e seja validada pela assessoria jurídica eleitoral. A VotaDigital estrutura presença, narrativa e captação com cuidado para esse contexto.",
+      "Sim. Estruturamos presença, narrativa e captação com linguagem adequada para o período.",
   },
   {
     question: "Vocês fazem anúncios políticos?",
     answer:
-      "Sim, podemos preparar estrutura, criativos e páginas para campanhas em plataformas permitidas, respeitando políticas das plataformas, identificação de anúncios e regras eleitorais aplicáveis.",
+      "Sim. Preparamos páginas, criativos e estrutura para mídia nas plataformas permitidas.",
   },
   {
     question: "O site substitui assessoria jurídica?",
@@ -24,22 +24,22 @@ export const faqItems = [
   {
     question: "Vocês fazem conteúdo para Instagram?",
     answer:
-      "Sim. Criamos criativos, roteiros, peças e páginas conectadas à estratégia de campanha.",
+      "Sim. Criamos peças, roteiros e páginas conectadas à narrativa da campanha.",
   },
   {
     question: "Vocês integram com WhatsApp?",
     answer:
-      "Sim. O site terá CTA para WhatsApp com mensagem estratégica pronta para captar interessados e facilitar o atendimento.",
+      "Sim. O site sai com CTAs e mensagem pronta para iniciar conversas qualificadas.",
   },
   {
     question: "Vocês trabalham para qualquer partido?",
     answer:
-      "A VotaDigital pode atender diferentes espectros políticos, desde que o projeto respeite regras legais, políticas das plataformas e boas práticas de comunicação.",
+      "Atendemos diferentes espectros, desde que o projeto siga regras legais e boas práticas.",
   },
   {
     question: "Quanto tempo leva para lançar?",
     answer:
-      "Depende do escopo. Uma landing page pode ser lançada rapidamente; estruturas completas exigem diagnóstico, copy, design, desenvolvimento e revisão.",
+      "Depende do escopo. Landing pages são rápidas; estruturas completas exigem diagnóstico e revisão.",
   },
 ];
 

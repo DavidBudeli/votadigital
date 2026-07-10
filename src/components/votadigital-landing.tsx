@@ -32,7 +32,6 @@ import {
   Sparkles,
   Smartphone,
   Target,
-  TrendingUp,
   UsersRound,
   UserRound,
   X,
@@ -59,41 +58,40 @@ const heroBadges = [
   "Sites e landing pages",
   "Meta Ads e WhatsApp",
   "Captação de apoiadores",
-  "Estrutura com compliance",
 ];
 
 const heroHeadline = "Sua campanha digital não pode começar atrasada.";
 
 const whyCards: Array<{ title: string; icon: IconComponent; copy: string }> = [
   {
-    title: "Autoridade antes da campanha",
+    title: "Autoridade",
     icon: ShieldCheck,
-    copy: "O eleitor encontra uma presença profissional antes do nome virar assunto.",
+    copy: "Presença profissional antes do nome ganhar volume.",
   },
   {
-    title: "Captação de apoiadores",
+    title: "Captação",
     icon: UsersRound,
-    copy: "Formulários, CTAs e WhatsApp deixam interesse organizado desde o primeiro contato.",
+    copy: "Formulários, CTAs e WhatsApp para organizar contatos.",
   },
   {
-    title: "Narrativa clara",
+    title: "Narrativa",
     icon: Megaphone,
-    copy: "Propostas, trajetória e diferenciais viram mensagens simples de defender e compartilhar.",
+    copy: "Trajetória, pautas e propostas em mensagens claras.",
   },
   {
-    title: "Presença mobile",
+    title: "Mobile",
     icon: Smartphone,
-    copy: "A experiência nasce para celular, onde a maior parte da atenção acontece.",
+    copy: "Experiência pensada primeiro para o celular.",
   },
   {
-    title: "Velocidade de publicação",
+    title: "Velocidade",
     icon: Rocket,
-    copy: "Páginas por pauta, região e frente de campanha sem depender de improviso.",
+    copy: "Páginas por pauta, região e frente sem improviso.",
   },
   {
-    title: "Métricas para decisão",
+    title: "Métricas",
     icon: Gauge,
-    copy: "Dados de tráfego, conversão e interesse ajudam a ajustar o próximo movimento.",
+    copy: "Dados de tráfego e conversão para ajustar a rota.",
   },
 ];
 
@@ -101,85 +99,80 @@ const audiences: Array<{ title: string; icon: IconComponent; copy: string }> = [
   {
     title: "Pré-candidatos",
     icon: UserRound,
-    copy: "Construa autoridade antes da campanha começar oficialmente, com uma presença profissional, clara e preparada para crescer.",
+    copy: "Autoridade e captação antes da campanha acelerar.",
   },
   {
     title: "Candidatos",
     icon: Flag,
-    copy: "Centralize propostas, agenda, redes, WhatsApp e captação em uma estrutura rápida, responsiva e pronta para conversão.",
+    copy: "Propostas, agenda, redes e WhatsApp em uma base própria.",
   },
   {
     title: "Mandatos",
     icon: Building2,
-    copy: "Comunique entregas, projetos e posicionamentos com mais clareza, consistência e profissionalismo.",
+    copy: "Entregas, projetos e posicionamentos com clareza.",
   },
   {
     title: "Assessores",
     icon: BriefcaseBusiness,
-    copy: "Tenha páginas, criativos e estrutura digital para executar com velocidade sem depender de improviso.",
+    copy: "Páginas e criativos prontos para executar com ritmo.",
   },
   {
     title: "Partidos",
     icon: UsersRound,
-    copy: "Padronize presença digital para múltiplos nomes com identidade, organização e escala.",
+    copy: "Presença digital padronizada para múltiplos nomes.",
   },
   {
     title: "Consultores políticos",
     icon: Handshake,
-    copy: "Agregue uma camada digital premium aos seus projetos com sites, páginas e motion de alto nível.",
+    copy: "Uma camada digital premium para seus projetos.",
   },
 ];
 
 const solutions: Array<{ title: string; icon: IconComponent; copy: string }> = [
   {
-    title: "Site oficial de campanha",
+    title: "Site oficial",
     icon: PanelTop,
-    copy: "Base própria para biografia, propostas, agenda, redes e WhatsApp sem aparência governamental.",
+    copy: "Base própria para biografia, propostas, agenda e contato.",
   },
   {
-    title: "Landing pages de captação",
+    title: "Landing pages",
     icon: MousePointerClick,
-    copy: "Páginas focadas em conversão para pautas, regiões, eventos e frentes de mobilização.",
+    copy: "Páginas focadas em conversão por pauta, região ou evento.",
   },
   {
-    title: "Páginas por pauta/proposta",
+    title: "Páginas de propostas",
     icon: Layers3,
-    copy: "Narrativas específicas para explicar ideias, defender bandeiras e capturar interesse.",
+    copy: "Ideias e bandeiras explicadas com objetividade.",
   },
   {
-    title: "Criativos para redes sociais",
+    title: "Criativos",
     icon: PenTool,
-    copy: "Peças alinhadas à narrativa para publicação orgânica, tráfego e testes de mensagem.",
+    copy: "Peças alinhadas à narrativa para redes e tráfego.",
   },
   {
-    title: "Setup Meta Ads",
+    title: "Meta Ads",
     icon: Target,
-    copy: "Pixel, eventos, UTMs e estrutura preparada para mídia com governança.",
+    copy: "Pixel, eventos, UTMs e estrutura de mídia.",
   },
   {
-    title: "WhatsApp estratégico",
+    title: "WhatsApp",
     icon: MessageCircle,
-    copy: "CTAs, mensagens e fluxos para transformar atenção em conversa organizada.",
+    copy: "CTAs e mensagens para conversas organizadas.",
   },
   {
-    title: "Formulários de apoiadores",
+    title: "Formulários",
     icon: FileCheck2,
-    copy: "Captação clara, consentimento e organização de dados para relacionamento.",
+    copy: "Captação clara de contatos e consentimento.",
   },
   {
     title: "SEO local",
     icon: Globe2,
-    copy: "Estrutura técnica e conteúdo para melhorar descoberta por região, nome e pauta.",
+    copy: "Descoberta por região, nome e pauta.",
   },
   {
-    title: "Relatórios de desempenho",
+    title: "Relatórios",
     icon: LineChart,
-    copy: "Leitura objetiva de tráfego, conversão, leads e evolução das páginas.",
-  },
-  {
-    title: "Otimização contínua",
-    icon: TrendingUp,
-    copy: "Ajustes de CTA, copy, criativos e páginas a partir do comportamento real.",
+    copy: "Leitura objetiva de tráfego, conversão e leads.",
   },
 ];
 
@@ -187,60 +180,58 @@ const timeline = [
   {
     label: "Agora",
     title: "Estrutura de pré-campanha",
-    copy: "Presença, canais, páginas e captação preparados antes da maioria perceber a urgência.",
+    copy: "Presença, canais e captação preparados com antecedência.",
   },
   {
     label: "Antes da campanha",
     title: "Autoridade, base e narrativa",
-    copy: "O nome passa a ter uma casa digital, mensagens claras e dados organizados.",
+    copy: "Casa digital, mensagens claras e contatos organizados.",
   },
   {
     label: "Campanha",
     title: "Tráfego, páginas, criativos e captação",
-    copy: "A operação acelera com páginas por pauta, anúncios, WhatsApp e testes de mensagem.",
+    copy: "Páginas, anúncios e WhatsApp trabalhando juntos.",
   },
   {
     label: "Reta final",
     title: "Otimização, velocidade e clareza",
-    copy: "Dados e execução rápida ajudam a priorizar o que gera atenção, contato e confiança.",
+    copy: "Dados e execução rápida para priorizar o que funciona.",
   },
 ];
 
 const complianceItems = [
-  "Sem aparência de órgão oficial",
+  "Não é órgão oficial",
   "Sem fake news",
   "Sem deepfake enganoso",
-  "Conteúdo com IA identificado quando necessário",
-  "Captação com consentimento",
-  "Anúncios com identificação quando aplicável",
-  "LGPD no fluxo de formulários",
-  "Disclaimer eleitoral claro",
+  "IA identificada quando necessário",
+  "LGPD",
+  "Anúncios com identificação",
 ];
 
 const process = [
   {
-    title: "Diagnóstico político-digital",
-    copy: "Entendemos o nome, região, público, pautas, imagem atual e nível de maturidade digital.",
+    title: "Diagnóstico",
+    copy: "Nome, região, público, pautas e maturidade digital.",
   },
   {
     title: "Narrativa e copy",
-    copy: "Transformamos trajetória, propostas e diferenciais em mensagens claras, fortes e fáceis de entender.",
+    copy: "Trajetória e propostas em mensagens simples.",
   },
   {
-    title: "Site e landing pages",
-    copy: "Criamos a estrutura visual e técnica para centralizar presença, propostas, redes e WhatsApp.",
+    title: "Site e páginas",
+    copy: "Estrutura visual e técnica para presença e captação.",
   },
   {
     title: "Captação e WhatsApp",
-    copy: "Organizamos formulários, CTAs e mensagens para transformar visitantes em contatos e apoiadores.",
+    copy: "Formulários, CTAs e mensagens prontas.",
   },
   {
     title: "Criativos e campanhas",
-    copy: "Preparamos peças, páginas e estrutura para publicações, tráfego e testes de comunicação.",
+    copy: "Peças e páginas para publicação e mídia.",
   },
   {
-    title: "Métricas e otimização",
-    copy: "Acompanhamos dados para ajustar narrativa, páginas, CTAs e próximos movimentos.",
+    title: "Métricas",
+    copy: "Dados para ajustar narrativa, páginas e CTAs.",
   },
 ];
 
@@ -248,7 +239,7 @@ const plans = [
   {
     name: "Pré-candidato Digital",
     price: "A partir de R$ 1.500",
-    copy: "Para quem precisa sair do improviso e construir presença profissional antes da campanha.",
+    copy: "Presença profissional antes da campanha.",
     featured: false,
     items: [
       "Landing page premium",
@@ -263,7 +254,7 @@ const plans = [
   {
     name: "Campanha Express",
     price: "A partir de R$ 3.000",
-    copy: "Para campanhas que precisam de estrutura completa, velocidade e captação organizada.",
+    copy: "Estrutura completa com velocidade e captação.",
     featured: true,
     items: [
       "Site completo",
@@ -279,7 +270,7 @@ const plans = [
   {
     name: "War Room Digital",
     price: "Sob consulta",
-    copy: "Para campanhas, mandatos e equipes que precisam operar o digital como centro de comando.",
+    copy: "Operação digital para campanhas e equipes.",
     featured: false,
     items: [
       "Estrutura premium completa",
@@ -318,6 +309,7 @@ export function VotaDigitalLanding() {
       }
 
       gsap.registerPlugin(ScrollTrigger);
+      const desktopMotion = window.matchMedia("(min-width: 1024px)").matches;
 
       context = gsap.context(() => {
         gsap.from("[data-hero-badge]", {
@@ -356,14 +348,16 @@ export function VotaDigitalLanding() {
           delay: 0.12,
         });
 
-        gsap.to("[data-float]", {
-          y: (index) => (index % 2 === 0 ? -12 : 12),
-          duration: 3.8,
-          repeat: -1,
-          yoyo: true,
-          ease: "sine.inOut",
-          stagger: 0.25,
-        });
+        if (desktopMotion) {
+          gsap.to("[data-float]", {
+            y: (index) => (index % 2 === 0 ? -10 : 10),
+            duration: 4.2,
+            repeat: -1,
+            yoyo: true,
+            ease: "sine.inOut",
+            stagger: 0.25,
+          });
+        }
 
         gsap.to("[data-logo-shimmer]", {
           opacity: 0.35,
@@ -433,7 +427,7 @@ export function VotaDigitalLanding() {
         const zone = scopeRef.current?.querySelector<HTMLElement>("[data-hero-zone]");
         const floaters = gsap.utils.toArray<HTMLElement>("[data-parallax]");
 
-        if (zone && floaters.length) {
+        if (desktopMotion && zone && floaters.length) {
           const handlePointerMove = (event: PointerEvent) => {
             const bounds = zone.getBoundingClientRect();
             const x = (event.clientX - bounds.left) / bounds.width - 0.5;
@@ -569,10 +563,10 @@ function Hero() {
   return (
     <section
       data-hero-zone
-      className="relative border-b border-white/[0.08] pb-12 pt-10 sm:pt-14 lg:pb-16 lg:pt-16"
+      className="relative isolate overflow-hidden border-b border-white/[0.08] pb-12 pt-8 sm:pt-12 lg:pb-10 lg:pt-12"
     >
       <div className="absolute inset-0 -z-10 digital-grid animated-grid opacity-60" />
-      <div className="section-shell grid items-center gap-12 lg:grid-cols-[1.02fr_0.98fr]">
+      <div className="section-shell grid items-center gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(340px,0.86fr)] lg:gap-10">
         <div data-hero-copy className="max-w-3xl">
           <div className="flex flex-wrap gap-2">
             {heroBadges.map((badge) => (
@@ -586,14 +580,14 @@ function Hero() {
             ))}
           </div>
 
-          <p className="mt-8 inline-flex items-center gap-2 rounded-full border border-[#2563FF]/30 bg-[#2563FF]/10 px-4 py-2 text-sm font-semibold text-[#9DB7FF]">
+          <p className="mt-7 inline-flex items-center gap-2 rounded-full border border-[#2563FF]/30 bg-[#2563FF]/10 px-4 py-2 text-sm font-semibold text-[#9DB7FF]">
             <Sparkles className="size-4" />
             VotaDigital por HyperAG
           </p>
 
           <h1
             data-headline
-            className="font-heading mt-6 flex max-w-[720px] flex-wrap gap-x-2 overflow-hidden text-[clamp(2.18rem,5vw,4.55rem)] font-semibold leading-[1.02] text-[#F6F8FF] sm:gap-x-4"
+            className="font-heading mt-5 flex max-w-[700px] flex-wrap gap-x-2 overflow-hidden text-[clamp(2.15rem,4.7vw,3.85rem)] font-semibold leading-[1.03] text-[#F6F8FF] sm:gap-x-4"
           >
             {heroHeadline.split(" ").map((word, index, words) => (
               <span key={word} className="overflow-hidden pb-1">
@@ -605,28 +599,25 @@ function Hero() {
             ))}
           </h1>
 
-          <p className="mt-6 max-w-2xl text-lg leading-8 text-[#A8B3C7] sm:text-xl">
-            Criamos sites, landing pages, criativos e estruturas de captação
-            para políticos, pré-candidatos e mandatos que precisam chegar em
-            2026 com presença, narrativa e dados organizados.
+          <p className="mt-5 max-w-2xl text-lg leading-8 text-[#A8B3C7] sm:text-xl">
+            Sites, landing pages, criativos e captação para políticos,
+            pré-candidatos e mandatos em 2026.
           </p>
 
-          <div className="mt-7 flex flex-col gap-3 sm:mt-8 sm:flex-row">
+          <div className="mt-6 flex flex-col gap-3 sm:flex-row">
             <ActionLink href={WHATSAPP_URL}>
               Estruturar minha campanha
             </ActionLink>
             <ActionLink href="#solucoes" variant="secondary">
-              Ver soluções digitais
+              Ver soluções
             </ActionLink>
           </div>
 
           <p className="mt-5 max-w-2xl text-sm font-medium leading-7 text-[#DCE6FF] sm:text-base">
-            Enquanto muitos candidatos deixam o digital para a última hora,
-            campanhas profissionais já estão construindo presença, base de
-            apoiadores e autoridade antes da largada.
+            Organize presença, narrativa e contatos antes da largada.
           </p>
 
-          <div className="mt-9 grid max-w-2xl grid-cols-3 gap-3">
+          <div className="mt-6 grid max-w-xl grid-cols-3 gap-2 sm:mt-8 sm:gap-3">
             {[
               ["2026", "Foco eleitoral", "2026", ""],
               ["4820", "Apoiadores mapeados", "4820", ""],
@@ -634,7 +625,7 @@ function Hero() {
             ].map(([value, label, count, suffix]) => (
               <div
                 key={value}
-                className="rounded-2xl border border-white/[0.08] bg-white/[0.04] px-3 py-4"
+                className="rounded-xl border border-white/[0.08] bg-white/[0.04] px-2.5 py-3 sm:rounded-2xl sm:px-3 sm:py-4"
               >
                 <strong
                   data-count={count}
@@ -644,7 +635,7 @@ function Hero() {
                   {value}
                   {suffix}
                 </strong>
-                <span className="mt-1 block text-xs leading-5 text-[#A8B3C7] sm:text-sm">
+                <span className="mt-1 block text-[0.68rem] leading-4 text-[#A8B3C7] sm:text-sm sm:leading-5">
                   {label}
                 </span>
               </div>
@@ -662,25 +653,24 @@ function HeroVisual() {
   return (
     <div
       data-hero-visual
-      className="relative mx-auto h-[520px] w-full max-w-[560px] sm:h-[600px]"
+      className="relative isolate mx-auto w-full max-w-[360px] overflow-hidden rounded-[28px] border border-white/[0.1] bg-[#0B1423]/76 p-3 shadow-[0_24px_80px_rgba(1,8,20,0.32)] sm:max-w-[430px] sm:p-4 lg:h-[520px] lg:max-w-[520px] lg:overflow-visible lg:rounded-[36px] lg:border-0 lg:bg-transparent lg:p-0 lg:shadow-none"
     >
-      <div className="absolute inset-4 rounded-[32px] border border-white/[0.08] bg-[#0E1726]/55 shadow-[0_28px_120px_rgba(37,99,255,0.18)]" />
-      <div className="absolute inset-0 rounded-[36px] digital-grid opacity-35" />
+      <div className="absolute inset-0 -z-10 rounded-[28px] digital-grid opacity-35 lg:inset-4 lg:rounded-[32px] lg:border lg:border-white/[0.08] lg:bg-[#0E1726]/55 lg:shadow-[0_28px_100px_rgba(37,99,255,0.16)]" />
 
       <div
         data-float
         data-parallax
-        className="panel-border absolute left-0 top-8 w-[min(72%,310px)] rounded-2xl bg-[#0B1423]/88 p-4 backdrop-blur-xl"
+        className="panel-border absolute left-0 top-8 hidden w-[min(66%,292px)] rounded-2xl bg-[#0B1423]/88 p-4 backdrop-blur-xl lg:block"
       >
         <div className="flex items-center justify-between gap-3">
           <div>
             <p className="text-xs font-semibold text-[#00D084]">Captação</p>
-              <strong
-                data-count="4820"
-                className="font-heading mt-1 block text-2xl text-[#F6F8FF]"
-              >
-                4.820
-              </strong>
+            <strong
+              data-count="4820"
+              className="font-heading mt-1 block text-2xl text-[#F6F8FF]"
+            >
+              4.820
+            </strong>
           </div>
           <div className="grid size-11 place-items-center rounded-xl bg-[#00D084]/12 text-[#00D084]">
             <UsersRound className="size-5" />
@@ -695,7 +685,7 @@ function HeroVisual() {
       <div
         data-float
         data-parallax
-        className="panel-border absolute right-0 top-28 w-[min(68%,286px)] rounded-2xl bg-[#0B1423]/90 p-4 backdrop-blur-xl"
+        className="panel-border absolute right-0 top-24 hidden w-[min(58%,258px)] rounded-2xl bg-[#0B1423]/90 p-4 backdrop-blur-xl lg:block"
       >
         <div className="flex items-center gap-3">
           <div className="grid size-10 place-items-center rounded-xl bg-[#2563FF]/14 text-[#8BA7FF]">
@@ -717,37 +707,37 @@ function HeroVisual() {
         </div>
       </div>
 
-      <div className="absolute left-1/2 top-1/2 w-[250px] -translate-x-1/2 -translate-y-[42%] rounded-[34px] border border-white/[0.16] bg-[#060C16] p-3 shadow-[0_26px_90px_rgba(0,0,0,0.5)] sm:w-[290px]">
-        <div className="rounded-[26px] border border-white/[0.08] bg-[#0E1726] p-4">
-          <div className="mb-4 flex items-center justify-between">
+      <div className="relative z-10 mx-auto w-full max-w-[252px] rounded-[28px] border border-white/[0.16] bg-[#060C16] p-2.5 shadow-[0_22px_70px_rgba(0,0,0,0.42)] sm:max-w-[300px] sm:p-3 lg:absolute lg:left-1/2 lg:top-1/2 lg:w-[280px] lg:max-w-none lg:-translate-x-1/2 lg:-translate-y-[42%]">
+        <div className="rounded-[22px] border border-white/[0.08] bg-[#0E1726] p-3 sm:p-4">
+          <div className="mb-3 flex items-center justify-between sm:mb-4">
             <VotaDigitalLogo markOnly />
             <span className="rounded-full bg-[#00D084]/12 px-3 py-1 text-[0.68rem] font-semibold text-[#00D084]">
               online
             </span>
           </div>
-          <div className="rounded-2xl bg-[#07111F] p-4">
+          <div className="rounded-2xl bg-[#07111F] p-3 sm:p-4">
             <p className="text-xs font-semibold text-[#8BA7FF]">Landing de campanha</p>
-            <h2 className="font-heading mt-2 text-xl leading-7 text-[#F6F8FF]">
-              Cidade, pauta e apoiadores em uma página.
+            <h2 className="font-heading mt-2 text-lg leading-6 text-[#F6F8FF] sm:text-xl sm:leading-7">
+              Pauta, cidade e apoiadores em uma página.
             </h2>
-            <p className="mt-3 text-xs leading-5 text-[#A8B3C7]">
-              Biografia, propostas, agenda e contato com WhatsApp em destaque.
+            <p className="mt-3 hidden text-xs leading-5 text-[#A8B3C7] sm:block">
+              Biografia, propostas e WhatsApp em destaque.
             </p>
-            <div className="mt-4 grid gap-2">
+            <div className="mt-3 grid gap-2 sm:mt-4">
               {["Nome completo", "Cidade", "WhatsApp"].map((field) => (
                 <div
                   key={field}
-                  className="rounded-xl border border-white/[0.08] bg-white/[0.04] px-3 py-2 text-xs text-[#A8B3C7]"
+                  className={`${field === "Cidade" ? "hidden sm:block" : ""} rounded-xl border border-white/[0.08] bg-white/[0.04] px-3 py-2 text-xs text-[#A8B3C7]`}
                 >
                   {field}
                 </div>
               ))}
             </div>
-            <div className="mt-4 rounded-xl bg-[linear-gradient(135deg,#2563FF_0%,#00D084_100%)] px-4 py-3 text-center text-xs font-bold text-white">
+            <div className="mt-3 rounded-xl bg-[linear-gradient(135deg,#2563FF_0%,#00D084_100%)] px-4 py-2.5 text-center text-xs font-bold text-white sm:mt-4 sm:py-3">
               Entrar em contato
             </div>
           </div>
-          <div className="mt-4 grid grid-cols-3 gap-2">
+          <div className="mt-4 hidden grid-cols-3 gap-2 sm:grid">
             {["SEO", "Ads", "CRM"].map((item) => (
               <span
                 key={item}
@@ -763,7 +753,7 @@ function HeroVisual() {
       <div
         data-float
         data-parallax
-        className="panel-border absolute bottom-9 left-4 w-[min(70%,300px)] rounded-2xl bg-[#0B1423]/88 p-4 backdrop-blur-xl"
+        className="panel-border absolute bottom-8 left-4 hidden w-[min(58%,284px)] rounded-2xl bg-[#0B1423]/88 p-4 backdrop-blur-xl lg:block"
       >
         <div className="flex items-center justify-between">
           <span className="text-xs font-semibold text-[#A8B3C7]">Timeline 2026</span>
@@ -783,15 +773,15 @@ function HeroVisual() {
 
       <svg
         aria-hidden="true"
-        className="absolute inset-0 h-full w-full text-[#2563FF]/30"
-        viewBox="0 0 560 600"
+        className="absolute inset-0 hidden h-full w-full text-[#2563FF]/30 lg:block"
+        viewBox="0 0 520 520"
         fill="none"
       >
-        <path d="M120 146 C220 130 250 210 320 205 S438 176 480 218" stroke="currentColor" />
-        <path d="M120 442 C210 382 280 410 340 360 S420 290 500 328" stroke="currentColor" />
+        <path d="M96 132 C200 118 238 190 306 188 S410 162 468 204" stroke="currentColor" />
+        <path d="M108 404 C198 356 260 382 322 330 S404 274 486 304" stroke="currentColor" />
         <circle cx="120" cy="146" r="4" fill="#00D084" />
-        <circle cx="480" cy="218" r="4" fill="#00D084" />
-        <circle cx="500" cy="328" r="4" fill="#00D084" />
+        <circle cx="468" cy="204" r="4" fill="#00D084" />
+        <circle cx="486" cy="304" r="4" fill="#00D084" />
       </svg>
     </div>
   );
@@ -803,8 +793,8 @@ function AudienceSection() {
       <div className="section-shell">
         <SectionIntro
           eyebrow="Para quem é"
-          title="Para quem precisa transformar presença digital em força política."
-          copy="A VotaDigital atende operações políticas em diferentes estágios com estrutura, copy, design e tecnologia sem parecer órgão público ou sistema de votação."
+          title="Para campanhas, mandatos e equipes políticas."
+          copy="Estrutura digital para quem precisa organizar presença, narrativa e contatos."
         />
         <div data-stagger className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {audiences.map((item) => (
@@ -824,10 +814,10 @@ function SolutionsSection() {
       <div className="section-shell">
         <SectionIntro
           eyebrow="O que entregamos"
-          title="A estrutura digital completa da sua campanha."
-          copy="Não entregamos apenas uma página bonita. Entregamos uma estrutura pensada para gerar confiança, organizar mensagem, captar interesse e facilitar a ação do eleitor."
+          title="Estrutura digital para campanha real."
+          copy="Site, páginas, criativos, WhatsApp, captação e métricas em uma operação visual e organizada."
         />
-        <div data-stagger className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
+        <div data-stagger className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {solutions.map((item) => (
             <InfoCard key={item.title} icon={item.icon} title={item.title} compact>
               {item.copy}
@@ -845,8 +835,8 @@ function TimelineSection() {
       <div className="section-shell">
         <SectionIntro
           eyebrow="Linha do tempo 2026"
-          title="2026 já começou para quem leva campanha a sério."
-          copy="A sequência abaixo organiza o senso de urgência sem transformar planejamento digital em aconselhamento jurídico."
+          title="A campanha digital começa antes da largada."
+          copy="Uma sequência simples para sair do improviso e ganhar velocidade."
         />
         <div className="timeline-shell relative mt-12">
           <div className="timeline-line absolute left-4 top-2 h-[calc(100%-1rem)] w-px bg-[linear-gradient(180deg,#2563FF_0%,#00D084_100%)] lg:left-1/2" />
@@ -889,8 +879,8 @@ function ComplianceSection() {
         <div>
           <SectionIntro
             eyebrow="Compliance digital"
-            title="Velocidade sem descuidar das regras."
-            copy="Marketing político digital exige cuidado. Por isso, a VotaDigital trabalha com clareza, transparência e boas práticas para evitar aparência oficial, comunicação enganosa ou captação confusa."
+            title="Velocidade com cuidado."
+            copy="Marketing político digital precisa de clareza, identificação e boas práticas."
             align="left"
           />
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -922,8 +912,8 @@ function ProcessSection() {
       <div className="section-shell">
         <SectionIntro
           eyebrow="Processo"
-          title="Do posicionamento à captação: um processo pensado para campanha real."
-          copy="O trabalho combina estratégia, produção, configuração técnica e leitura de dados para tirar a campanha do improviso."
+          title="Do posicionamento à captação."
+          copy="Estratégia, produção, configuração técnica e leitura de dados em um fluxo direto."
         />
         <div data-stagger className="mt-12 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
           {process.map((step, index) => (
@@ -955,7 +945,7 @@ function PlansSection() {
         <SectionIntro
           eyebrow="Planos"
           title="Escolha a estrutura certa para o momento da sua campanha."
-          copy="Valores iniciais para orientar decisão. O escopo final depende de conteúdo, volume de páginas, criativos, integrações e rotina de acompanhamento."
+          copy="Planos iniciais para presença, captação e operação digital."
         />
         <div data-stagger className="mt-12 grid gap-5 lg:grid-cols-3">
           {plans.map((plan) => (
@@ -1014,15 +1004,13 @@ function WhyNowSection() {
                 Por que isso importa agora
               </p>
               <h2 className="font-heading mt-2 text-3xl font-semibold leading-tight text-[#F6F8FF] sm:text-5xl">
-                Campanhas que esperam a largada começam atrás.
+                Quem espera a largada começa atrás.
               </h2>
             </div>
           </div>
           <p className="text-xl font-semibold leading-9 text-[#F6F8FF] lg:text-2xl lg:leading-[1.48]">
-            Em 2026, presença digital não é detalhe. É onde o eleitor pesquisa,
-            compara, confia, compartilha e decide prestar atenção. A VotaDigital
-            cria a estrutura para transformar visibilidade em base, base em
-            relacionamento e relacionamento em força política.
+            Em 2026, o eleitor pesquisa, compara e decide atenção no digital. A
+            VotaDigital prepara sua presença antes da campanha acelerar.
           </p>
         </div>
         <div data-stagger className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
@@ -1110,9 +1098,8 @@ function FinalCta() {
             Prepare sua campanha antes da largada.
           </h2>
           <p className="mt-5 text-lg leading-8 text-[#DCE6FF]">
-            Quem organiza presença, narrativa e captação antes da maioria chega
-            mais forte. A VotaDigital coloca sua campanha em movimento com site,
-            páginas, criativos e tecnologia.
+            Site, páginas, criativos e WhatsApp para organizar presença,
+            narrativa e contatos antes da maioria.
           </p>
           <ActionLink href={WHATSAPP_URL} className="mt-8">
             Falar no WhatsApp
