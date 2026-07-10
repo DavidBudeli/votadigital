@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="VotaDigital - marketing político digital 2026">
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2563FF"/>
+      <stop offset="1" stop-color="#00D084"/>
+    </linearGradient>
+    <radialGradient id="blueGlow" cx="18%" cy="12%" r="55%">
+      <stop offset="0" stop-color="#2563FF" stop-opacity=".46"/>
+      <stop offset="1" stop-color="#2563FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="greenGlow" cx="86%" cy="18%" r="42%">
+      <stop offset="0" stop-color="#00D084" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#00D084" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse">
+      <path d="M38 0H0V38" fill="none" stroke="#A8B3C7" stroke-opacity=".09"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#07111F"/>
+  <rect width="1200" height="630" fill="url(#blueGlow)"/>
+  <rect width="1200" height="630" fill="url(#greenGlow)"/>
+  <rect width="1200" height="630" fill="url(#grid)" opacity=".8"/>
+  <rect x="72" y="64" width="1056" height="502" rx="38" fill="#0E1726" fill-opacity=".76" stroke="#A8B3C7" stroke-opacity=".22"/>
+  <g transform="translate(124 112)">
+    <rect width="74" height="74" rx="22" fill="#0B1423" stroke="#1B2A44" stroke-width="2"/>
+    <path d="M18 20L33.5 54L57 20" fill="none" stroke="url(#brand)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M33.5 53L56 21" fill="none" stroke="#F6F8FF" stroke-opacity=".58" stroke-width="2.4" stroke-linecap="round"/>
+    <text x="96" y="50" fill="#F6F8FF" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">Vota</text>
+    <text x="197" y="50" fill="#00D084" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">Digital</text>
+  </g>
+  <g transform="translate(124 244)">
+    <rect width="344" height="48" rx="24" fill="#00D084" fill-opacity=".12" stroke="#00D084" stroke-opacity=".24"/>
+    <text x="24" y="31" fill="#00D084" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Marketing político digital 2026</text>
+  </g>
+  <text x="124" y="374" fill="#F6F8FF" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="800" letter-spacing="-1">
+    <tspan x="124" dy="0">Sua campanha digital não</tspan>
+    <tspan x="124" dy="82">pode começar atrasada.</tspan>
+  </text>
+  <text x="124" y="536" fill="#A8B3C7" font-family="Arial, Helvetica, sans-serif" font-size="28">
+    Sites, landing pages, criativos, Meta Ads, WhatsApp e captação de apoiadores.
+  </text>
+  <g opacity=".84">
+    <rect x="824" y="190" width="210" height="326" rx="32" fill="#060C16" stroke="#A8B3C7" stroke-opacity=".2"/>
+    <rect x="846" y="220" width="166" height="252" rx="22" fill="#0E1726" stroke="#1B2A44"/>
+    <rect x="866" y="250" width="126" height="20" rx="10" fill="#2563FF" fill-opacity=".36"/>
+    <rect x="866" y="296" width="120" height="14" rx="7" fill="#F6F8FF" fill-opacity=".9"/>
+    <rect x="866" y="322" width="96" height="14" rx="7" fill="#F6F8FF" fill-opacity=".72"/>
+    <rect x="866" y="374" width="126" height="32" rx="12" fill="#F6F8FF" fill-opacity=".08" stroke="#A8B3C7" stroke-opacity=".16"/>
+    <rect x="866" y="420" width="126" height="34" rx="13" fill="url(#brand)"/>
+    <rect x="710" y="238" width="218" height="108" rx="18" fill="#0B1423" fill-opacity=".94" stroke="#A8B3C7" stroke-opacity=".16"/>
+    <text x="734" y="274" fill="#00D084" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Captação</text>
+    <text x="734" y="312" fill="#F6F8FF" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="800">4.820</text>
+    <rect x="734" y="326" width="132" height="8" rx="4" fill="url(#brand)"/>
+    <rect x="916" y="310" width="220" height="128" rx="18" fill="#0B1423" fill-opacity=".94" stroke="#A8B3C7" stroke-opacity=".16"/>
+    <rect x="950" y="374" width="24" height="40" rx="6" fill="url(#brand)"/>
+    <rect x="988" y="350" width="24" height="64" rx="6" fill="url(#brand)"/>
+    <rect x="1026" y="328" width="24" height="86" rx="6" fill="url(#brand)"/>
+    <rect x="1064" y="362" width="24" height="52" rx="6" fill="url(#brand)"/>
+  </g>
+</svg>

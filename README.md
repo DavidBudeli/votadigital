@@ -16,9 +16,11 @@ para campanhas políticas em 2026.
 ## Comandos
 
 ```bash
+npm install
 npm run dev
 npm run lint
 npm run build
+npm run start
 ```
 
 Servidor local padrão:
@@ -26,6 +28,21 @@ Servidor local padrão:
 ```text
 http://127.0.0.1:3000
 ```
+
+## Hostinger Node.js Hosting
+
+O projeto não usa recursos dependentes da Vercel, Edge Runtime obrigatório,
+serverless específico da Vercel ou Vercel Analytics. Para publicar na Hostinger,
+configure o app Node.js para executar:
+
+```bash
+npm install
+npm run build
+npm run start
+```
+
+Se a Hostinger definir `PORT`, o `next start` usa a porta do ambiente. Caso o
+painel peça uma porta fixa, use a porta indicada pela própria hospedagem.
 
 ## WhatsApp
 
