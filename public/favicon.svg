@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="VotaDigital">
+  <rect width="64" height="64" rx="18" fill="#0B1423"/>
+  <rect x="1" y="1" width="62" height="62" rx="17" fill="none" stroke="#1B2A44" stroke-width="2"/>
+  <path d="M15 17L28.5 48L50 17" fill="none" stroke="url(#g)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M28.4 47.5L49.4 17.6" fill="none" stroke="#F6F8FF" stroke-opacity=".62" stroke-width="2.2" stroke-linecap="round"/>
+  <defs>
+    <linearGradient id="g" x1="15" x2="50" y1="17" y2="48" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2563FF"/>
+      <stop offset="1" stop-color="#00D084"/>
+    </linearGradient>
+  </defs>
+</svg>

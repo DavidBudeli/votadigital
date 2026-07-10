@@ -1,0 +1,1 @@
+export { WHATSAPP_MESSAGE, WHATSAPP_NUMBER, WHATSAPP_URL } from "./constants";
